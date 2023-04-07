@@ -1,0 +1,358 @@
+/* COLOR REFERENCES
+
+grey #DFF2D8
+green #79b044
+dark blue #2E64D1
+light blue #e3f2fd
+red #D11B0A
+
+
+*/
+
+/* === GENERAL === */
+
+body {
+    margin-top: 50px;
+    font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+    background: #fcfdff;
+  }
+  
+  /* === GLOBAL ===*/
+  
+  h1,h2,h3,h4,h5,h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  h1,h2 {
+    margin: 0 0 40px;
+  }
+  
+  h3 {
+    margin: 20px 0;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  p {
+    margin: 0 0 15px;
+  }
+  
+  .shadow {
+    text-shadow: 2px 2px 20px #3f3f3f;
+  }
+  
+  p.lead {
+    font-weight: normal;
+  }
+  
+  a:link a:visited {
+    color: #dd5638;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #eee;
+  }
+  
+  button, input, .btn, a.btn {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: white;
+  }
+  
+  .btn {
+    font-weight: bold;
+  }
+  
+  button.btn:focus {
+    outline: none !important;
+  }
+  
+  .btn-danger {
+    background-color: #D11B0A;
+    border-collapse: #d95131;
+  }
+  
+  .btn-danger:hover {
+    background: #bc1000;
+    border-color: #bc1000;
+  }
+  
+  .btn-success {
+    background: #79b044;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background: #6a9b3d;
+    border-color: #6a9b3d;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .modal-content {
+    background: white;
+  }
+  
+  .nav>li>a:focus, .nav>li>a:hover {
+    background: rgb(46, 100, 209);
+  }
+  
+   .navbar-brand:hover {
+    color: rgb(46, 100, 209);
+  }
+  
+  .fa-bars {
+    color: rgb(46, 100, 209);
+  }
+  
+  /*=== HERO ===*/
+  
+  #hero {
+    background: url('https://s17.postimg.cc/16ouamoz1r/doc-using-computer-twitter-cropped.jpg') 50% 0 no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 500px;
+    padding: 40px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  
+  #hero article {
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #hero .hero-text {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    background: rgba(130, 130, 130, 0.4);
+    box-shadow: 0 0 85px 50px rgba(130, 130, 130, 0.4);
+    border-radius:50px;
+    }
+  
+  
+  #hero .hero-text h3 {
+    line-height: 1.3em;
+    margin-bottom: 40px;
+  }
+  
+  /*=== MISC ===*/
+  
+  .icon-group {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 7px;
+  }
+  
+  .form-line {
+    border-right: 1px solid #e3f2fd;
+  }
+  
+  .form-group {
+    margin-top: 10px;
+  }
+  
+  .submit {
+    float: right;
+    width: 150px;
+  }
+  
+  .q-text {
+    padding-bottom: 20px;
+  }
+  
+  .section-header h2 {
+    line-height:.3em;
+  }
+  
+  .contact {
+    margin-top: 30px;
+  }
+  
+  #description {
+    height: 190px;
+  }
+  
+  .fa-paper-plane {
+    margin-right: 5px;
+  }
+  
+  /*=== LAYOUT ===*/
+  
+  .row + .row {
+    margin-top: 20px;
+  } 
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  .section-header {
+    text-align: center;
+  }
+  
+  section h2 {
+    margin: 20px 0 40px;
+  }
+  
+  section h3 {
+    margin: 30px 0 10px;
+  }
+  
+  #primary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .feature-image {
+    display: table;
+    width: 100%;
+  }
+  
+  .feature-bg {
+    background: white url('https://s17.postimg.cc/6w1lwkbqpb/Doctor-_Background2.jpg') 100% no-repeat;
+    background-size: cover;
+  }
+  
+  #table {
+    display: table;
+    margin-bottom: 10px;
+  }
+  
+  .feature-blocks {
+    background: linear-gradient(to right, rgb(46, 100, 209), rgba(46, 100, 209, 0.5));
+    background: rgb(46, 100, 209); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgb(46, 100, 209) , rgba(46, 100, 209, 0.5)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, rgb(46, 100, 209), rgba(46, 100, 209, 0.5)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, rgb(46, 100, 209), rgba(46, 100, 209, 0.5)); /* For Firefox 3.6 to 15 */
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .feature-icon {
+    display: table-cell;
+    vertical-align: middle;
+    background: rgb(46, 100, 209);
+    padding-left: 15px;
+    border-radius: 10px 0 0 10px;
+    color: white;
+  }
+  
+  #optin {
+    background: #2E64D1;
+    padding: 20px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+  }
+  
+  #optin p {
+    margin: 7px 0 0 0;
+  }
+  
+  #who-benefits {
+    background: white;
+  }
+  
+  #featurette {
+    background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+  }
+  
+  #signup {
+    text-align: center;
+    background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+    background-size: cover;
+    color: white;
+    padding: 140px 0;
+  }
+  
+  #signup h2 {
+    font-weight: normal;
+  }
+  
+  #signup h2 strong {
+    border-bottom: solid 2px #dd5638;
+  }
+  
+  #signup .btn {
+    font-size: 24px;
+  }
+  
+  .modal .btn {
+      margin-top: 10px;
+  }
+  
+  footer {
+    background: #2E64D1;
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer a:link, footer a:visited {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: #D11B0A;
+  }
+  
+  .footer-title a:hover {
+    font-weight: bold;
+  }
+  
+  
+  /* === MEDIA QUERIES === */
+  
+  @media screen and ( max-width : 991px ) {
+    #features .container {
+      background: rgba(255,255,255,0.8);
+      padding: 20px;
+    }
+  }
+  
+  @media screen and ( max-width : 768px ) {
+   
+    #optin p {
+      margin: 0 0 10px;
+    }
+  }
+  
+  @media screen and ( max-width : 568px ) {
+    #features .num {
+      height: 100px;
+      width: 100px;
+      font-size: 22px;
+    }
+    #features .num span {
+      font-size: 16px;
+    }
+  }
+  
