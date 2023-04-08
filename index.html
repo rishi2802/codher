@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="{% static './proj.css' %}">
 
     <title>Khushi</title>
 
@@ -20,34 +21,7 @@
 
   </head>
   <body>
-    
-     <header clas="site-header" role="banner">
-
-
-      <div class="navbar-wrapper">
-        <div class="navbar navbar-light navbar-fixed-top" style="background-color: #e3f2fd;" role="navigation">
-
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle Navigation</span>
-                <i class="fa fa-bars" aria-hidden="true"></i>
-              </button>
-              <a class="navbar-brand" href="#hero"><b>Khushi</b></a>
-            </div><!--navbar header-->
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#hero">Home</a></li>
-                <li><a href="#main-info">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul><!--nav-->
-            </div><!--navbar-collapse-->
-          </div><!--container-->
-        </div><!--navbar-->
-      </div><!--navbar wrapper-->
-
-    </header>
-    
+ 
     
     <!-- HERO -->
     <section id="hero" data-type="background" data-speed="5">
@@ -60,8 +34,9 @@
             <div class="col-sm-6 hero-text">
               <h1 class="shadow">Khushi</h1>
               <h3 class="shadow">Connecting the needy with the best healthcare professionals, anytime, anywhere.</h3>
-             
-              <p><a class="btn btn-lg btn-danger" href="#contact" role="button">Login &raquo;</a></p>
+             <form action="login">
+              <input type="submit" class="btn btn-lg btn-danger" value="Login" id="logbtn">
+            </form>
 
             </div><!--col-->
             
@@ -263,6 +238,7 @@
         </div><!-- modal-content -->
       </div><!-- modal-dialog -->
     </div><!-- modal -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> 
     <script src="./files.js"></script>
     
    </body>
