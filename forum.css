@@ -1,0 +1,98 @@
+* {
+    box-sizing:border-box;
+  }
+  
+  html {
+    font-size:18px;
+  }
+  .screen {
+     padding: 0;
+      height: 650px;
+      width: 366px;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translate(-50%, 0);
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+      overflow: hidden;
+      margin: 30px 0;
+  }
+  body {
+    font-family: arial !important;
+    font-family: Trebuchet MS;
+    background-color:#00897b;
+  }
+  #page > h1 {
+      margin-bottom: 40px !important;
+      text-align: center;
+    color:white;
+  }
+  .card h1 {
+      border-bottom: 1px solid #ddd;
+      font-family: Trebuchet MS;
+      font-size: 25px;
+      padding-bottom: 10px;
+  }
+  #page {
+      margin: 0 auto;
+      width: 90%;
+  }
+  .like{
+    cursor:pointer;
+    font-size:20px;
+    float: right;
+  }
+  .like.active {
+      padding: 3px;
+    color:red;
+      transform: scale(1.5);
+  }
+  .card {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color:white;
+    color:black;
+       margin-bottom: 10px;
+      padding: 10px;
+    border:1px solid rgba(0,0,0,.09);
+  }
+.form-horizontal{
+    align-self: center;
+    margin: 2em;
+}  
+#th{
+    color: white;
+    font-size: 24px;
+    margin: 2em;
+   text-align: center;
+}
+.control-label{
+   
+    margin-right: 1em;
+    text-align: center;
+   
+}
+.form-group{
+    margin-bottom: 2em;
+    align-items: center;
+}
+.txt{
+    width: 400px;
+    height: 70px;
+  
+}
+
+.cl{
+    position: relative;
+    top: -1em;
+}
+.btn-primary{
+    border-style: none;
+    width: 120px;
+    padding: 1em;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.t2{
+    margin-left: 200px;
+}

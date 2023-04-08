@@ -1,0 +1,62 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './test.css' %}">
+</head>
+<body>
+    <div id="login">
+        
+        <div id="content2">
+            <div id="header">
+                <div id="support">
+                    <div id="logintoa"></div>
+                </div>
+                
+            </div>
+                <form action="enter" method="post">
+                    {% csrf_token %}
+                    <div id="content2">
+                        <div id="inp2">
+                            <div id="inplab">
+                                <div id="label"></div>
+                                <div id="pwd"></div>
+                                    <input type="text" name="v1" id="input" placeholder="Enter R&D Spend"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="inp3" class="ip3">
+                            <div id="inplab">
+                                <div id="label"></div>
+                                <div id="pwd"></div>
+                                    <input type="text" name="v2" id="input" placeholder="Enter Administration"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="inpfield2" class="pwd">
+                            <div id="inplab">
+                                <div id="label"></div>
+                                <div id="pwd"></div>
+                                    <input type="text" name="v3" id="input" placeholder="Enter Marketing Spend"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div id="action">
+                                <input type="submit" id="sub" value="SUBMIT">
+                            </div>
+                        
+                    </div>
+                    
+                </form>
+                
+        </div>
+    </div>
+</body>
+</html>

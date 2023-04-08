@@ -1,0 +1,366 @@
+#login
+{
+    background:url("./pexels-rafael-cerqueira-4737484.jpg");
+    position: relative;
+    width: 100%;
+    height: 1024px;
+    position: fixed;
+    background-size: cover;
+
+}
+#tmtportal
+{
+position: relative;
+min-width: 368px;
+max-width: fit-content;
+height: 20px;
+left: 570px;
+top: 100px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 36px */
+
+display: flex;
+align-items: center;
+background-color: blue;
+color: #2D2D2D;
+}
+#content,#content2
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 36px;
+
+position: absolute;
+width: 400px;
+height: 326px;
+left: 540px;
+top: 264px;
+}
+
+#header{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 360px;
+height: 38px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+#support
+{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 360px;
+height: 38px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+height: 38px;
+width: 360px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+#logintoa
+{
+    width: 360px;
+height: 38px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 38px;
+/* identical to box height, or 127% */
+
+text-align: center;
+
+/* Black */
+
+color: #2D2D2D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#content2{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 48px;
+
+width: 360px;
+height: 252px;
+
+border-radius: 12px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+#form{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 360px;
+height: 500px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+#inplab{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+width: 360px;
+height: 70px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+#label{
+    width: 360px;
+    height: 20px;
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    
+    
+    /* Gray/700 */
+    
+    color: #344054;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+input{
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 40px;
+    gap: 8px;
+    
+    width: 360px;
+    height: 44px;
+    
+    /* White */
+    
+    background: #FFFFFF;
+    /* Gray/300 */
+    
+    border: 1px solid #D0D5DD;
+    /* Shadow/xs */
+    
+    box-shadow: 0px 1px 2px rgb(1, 8, 22);
+    border-radius: 8px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+   
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+
+}
+
+#active{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 360px;
+height: 44px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+#sub,#sub2{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 18px;
+gap: 8px;
+
+width: 360px;
+height: 44px;
+
+/* Black */
+
+background: #2D2D2D;
+/* Black */
+
+border: 1px solid #2D2D2D;
+/* Shadow/xs */
+
+box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+#action,#signup
+{
+    position:absolute;
+top: 600px;
+left: 545px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 360px;
+height: 44px;
+}
+
+/* Inside auto layout */
+
+#sub,#sub2,#sub3{
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+background: linear-gradient(to bottom, #ffff00 0%, #ffcc00 100%);
+color: #009999;
+}
+
+#signup{
+    top: 160px;
+    left: 560px;
+    text-decoration: none;
+}
+
+#content2{
+    top: 70px;
+}
+
+#error{
+    color: red;
+    width: 360px;
+    font-size: 24px;
+    position: absolute;
+    left: 20px;
+    top: 500px;
+
+}
+
+#result{
+    position: absolute;
+    font-size: 24px;
+    top: 70px;
+    left: 45px;
+}
+
+#inp2{
+    position: relative;
+    top: 110px;
+    left: -540px;
+}
+
+#inpfield3{
+    position: absolute;
+    top: 350px;
+    left: 540px;
+}
+
+#inpfield2{
+    position: absolute;
+    top: 470px;
+    left: 540px;
+
+}
+.ip3{
+    position: relative;
+
+    top: 350px;
+    left: 540px;
+}

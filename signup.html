@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static './test.css' %}">
+</head>
+<body>
+    <div id="login">
+        
+        <div id="content2">
+            <div id="header">
+                <div id="support">
+                    <div id="logintoa">Register your account</div>
+                </div>
+                
+            </div>
+                <form action="new" method="post">
+                    {% csrf_token %}
+                    <div id="content2">
+                        <div id="inp2">
+                            <div id="inplab">
+                                <div id="label">Email</div>
+                              
+                                    <input type="email" name="i2" id="input" placeholder="Enter your mail"> 
+            
+                                </div>
+                            </div>
+                        </div>
+                        <div id="inp3">
+                            <div id="inplab">
+                                <div id="label">Username</div>
+                                
+                                    <input type="text" name="i1" id="input" placeholder="Enter Username"> 
+                                
+                                </div>
+                            </div>
+                        </div>
+                        <div id="inpfield3" class="pwd">
+                            <div id="inplab" class="ep">
+                                <div id="label">Enter Password</div>
+                                <div id="pwd"></div>
+                                    <input type="password" name="i3" id="input" placeholder="•••••••"> 
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div id="inpfield2" class="pwd">
+                            <div id="inplab">
+                                <div id="label">Confirm Password</div>
+                                <div id="pwd"></div>
+                                    <input type="password" name="i4" id="input" placeholder="•••••••"> 
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div id="action">
+                            <input type="submit" value="Sign Up" id="sub">
+                        </div>
+                    </div>
+                    
+                </form>
+                
+        </div>
+    </div>
+    <div id="error">{{name}}</div>
+</body>
+</html>
